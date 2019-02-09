@@ -13,17 +13,12 @@ Warm-Up Tasks
 Overview
 ========
 
-The warm-up tasks this week will focus on general git repository tasks. You'll
-be tasked to manipulate files with git's tools prior to submitting the work
-through the git pull request workflow.
+The warm-up tasks this week will focus on variables and operators. 
 
 Instructions
 ============
 
-The following tasks will either have you interacting with existing files in
-the assignment repository or creating new ones on the fly. Don't forget to add
-your interpreter directive, utf-8 encoding, and a short docstring with any new
-files that you create!
+The following tasks will  have you creating new scripts on the fly. 
 
 .. important::
 
@@ -39,22 +34,24 @@ files that you create!
     practicing both the use of the language in practice and the search skills
     necessary to become functional programmers.
 
-Warm-Up Tasks
+Tasks
 =============
 
 Task 01
 -------
 
-In the reading, we learned that python strings are immutable, meaning they
-cannot be changed. Here we'll test for the same property to see if it holds
-true for the variables that hold strings.
 
 Specifications
 ^^^^^^^^^^^^^^
 
-1.  Open ``task_01.py``
+1.  Add the following line of code in a new Jupyter notebook
 
-2.  After line 9, add a new line and assign a new value of ``Nevermore!`` to
+.. code:: pycon
+
+    >>> RAVEN = 'quoth'
+  
+
+2.  After the line above, add a new line and assign a new value of ``Nevermore!`` to
     the ``RAVEN`` variable.
 
     .. note::
@@ -62,7 +59,7 @@ Specifications
         Do not change the existing variable declaration. Add a new line
         instead.
 
-Examples
+Expected Output
 ^^^^^^^^
 
 .. code:: pycon
