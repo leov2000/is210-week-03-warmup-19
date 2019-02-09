@@ -2,7 +2,7 @@
 IS 210 Assignment #03
 #####################
 *************
-Warm-Up Tasks
+Tasks
 *************
 
 :College: CUNY School of Professional Studies
@@ -74,7 +74,7 @@ Python's order of operations respects parentheses. Create a mathematical
 statement in a single-line.
 
 Specifications
-^^^^^^^^^^^^^^`
+^^^^^^^^^^^^^^
 
 1.  In a new line on the same notebook, create a variable named ``WEEKS`` and, in a single statement:
 
@@ -195,8 +195,7 @@ Specifications
 .. code:: pycon
 
     >>> NERVOUS_AS = """
- //////////A long-tailed cat in a room full of rockin' chairs.,,,,,,,,,, 
-""".strip()
+ //////////A long-tailed cat in a room full of rockin' chairs.,,,,,,,,,, """.strip()
 
 
 2.  Use the ``strip()`` function to remove whitespace from ``NERVOUS_AS`` and
