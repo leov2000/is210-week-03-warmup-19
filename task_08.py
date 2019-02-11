@@ -5,7 +5,6 @@
 Strip this terribly formatted string of its excess characters.
 """
 
-
 NERVOUS_AS = """
 
 
@@ -18,3 +17,5 @@ NERVOUS_AS = """
 
 
 """
+
+NERVOUS_AS = NERVOUS_AS.strip().lstrip('/').rstrip(',')
