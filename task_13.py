@@ -11,4 +11,7 @@
     print task_12.FLOATVAL
 """
 
-import task_12
+from task_12 import FLOATVAL, DECVAL, FRACVAL
+
+FRAC_DEC_EQUAL = DECVAL == FRACVAL
+DEC_FLOAT_INEQUAL = DECVAL != FLOATVAL
